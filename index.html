@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf_8"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Lobster&display=swap" rel="stylesheet">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Lobster&display=swap');
+    </style>
+    <link rel="stylesheet" href="mon_site.css">
+    <title>Ma Page Principal</title>
+    <script type="text/javascript" src="scripts.js"></script>
+    <title>Event Handler Example</title>
+    <script type="text/javascript">
+      function myAlert() {alert("Attention Alerte DANGER DANGER DANGER");return;}
+    </script>
 </head>
-<body>  
-<h1>Bonjour les Quilin</h1>
-  
-  </body>
+<body>
+    <header>
+        <img src="./IMG/logo.png" alt="logo" width="400px" height="400px">
+        <p> DEV-NEW-WEB </p>
+        <img src="./IMG/la_devmini_1.jpg" alt="DEV-NEW-WEB" width="400px" height="400px">
+        <nav>
+            <ul>
+                <a href="index.html" alt="ma page principal" title="Ma Page Principal"><li>Ma Page Principal</li></a>
+                <a href="mon_parcour_professionnel.html" alt="Mon Parcour Professionnel" title="Mon Parcour Professionnel"><li>Mon Parcour Professionnel</li></a>
+                <a href="mes-diplome.html" alt="Mes Diplomes" title="Mes Diplomes"><li>Mes Diplomes</li></a>
+                <a href="mes_travaux.html" alt="Mes Travaux" title="Mes Travaux"><li>Mes Travaux</li></a>
+                <a href="ils_me_font_confiance.html" alt="Ils me font Confiance" title="Ils me font Confiance"><li>Ils me font Confiance</li></a>
+             </ul>
+        </nav>
+    </header>
+        <section>
+            <div class="conteneur">
+                <div class="jumbo">
+                    <h2>Bonjour et bienvenue sur mon site de démonstraton.</h2>
+                    <div class="jumbo1"><a href="https://www.gstsu.com" alt="GSTSU" title="GSTSU">GSTSU</a></div>
+                    <div class="jumbo2"> bingo c'est gagné </div> 
+                    <div class="jumbo3"><button type="button">bouton</button></div>
+                    <div class="jumbo4"><span onmouseover="myAlert();">passez votre souris Ici!</span></div>
+                </div> 
+            </div>
+        </section>
+        
+        <footer>
+            <div class="element">
+                <nav id="navigateur">
+                    <a href="accueil.html" alt="ma page principal" title="Ma Page Principal"> Ma Page Principal |</a>
+                    <a href="mon_parcour_professionnel.html" alt="Mon Parcour Professionnel" title="Mon Parcour Professionnel"> Mon Parcour Professionnel |</a>
+                    <a href="mes-diplome.html" alt="Mes Diplomes" title="Mes Diplomes"> Mes Diplomes |</a>
+                    <a href="mes_travaux.html" alt="Mes Travaux" title="Mes Travaux"> Mes Travaux |</a>
+                    <a href="ils_me_font_confiance.html" alt="Ils me font Confiance" title="Ils me font Confiance"> Ils me font Confiance </a>
+                </nav>
+                <p> copyright© 2023 Oumessaoud azzedine tous droit résérver </p>
+            </div>
+        </footer>
+</body>
+
+
+</html>

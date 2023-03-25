@@ -1,0 +1,193 @@
+@font-face {
+    font-family: 'ambleregular';
+    
+    src: url('Amble-Regular-webfont.eot');
+    src: url('Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Amble-Regular-webfont.woff2') format('woff2'),
+         url('Amble-Regular-webfont.woff') format('woff'),
+         url('Amble-Regular-webfont.ttf') format('truetype'),
+         url('Amble-Regular-webfont.svg#ambleregular') format('svg');
+    
+    font-weight: normal;
+    font-style: normal;
+}
+h1, h2, p, nav
+{
+    font-family: 'lobster', cursive; width: auto; height: auto;
+}
+body
+{
+    background-image: linear-gradient(to top, #a48cb3 0%, #fa71cd 100%);    
+}
+
+header
+{
+    display: flex; justify-content: space-between; width: 80%;
+    border: 3px solid blue;  border-radius: 10px 10px;
+    margin: 2% auto;
+    background: linear-gradient(to left, #0fd850 0%, #f9f047 100%); 
+}
+h1
+{
+    border: 3px black solid; border-radius: 10px 10px; 
+    font-size: 2em; 
+    background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+nav:hover
+{
+    opacity: 0.8;
+}
+nav
+{
+    border: 3px black solid; border-radius: 10px 10px; 
+    font-size: 1em; 
+    background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+.imagedev
+{
+    background-color: antiquewhite; border: solid green 3px; border-radius: 10px;  
+    display: flex; justify-content: space-around; width: 80%;
+    margin: 2% 10% 2% 10%; padding: 10px;
+}
+footer 
+{
+    border: solid green 3px; border-radius: 10px;
+    display: flex; background-color: grey;
+    justify-content: space-around;
+}
+.h1
+{
+    font-size: 1.2em; color: blue; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    border: solid black 3px; border-radius: 10px; align-self: center;
+}
+.hh
+{
+    border: solid black 3px; border-radius: 10px;
+}
+.hhh
+{
+    border: solid black 3px; border-radius: 10px;
+}
+.jumbo
+{
+    display: flex; justify-content: space-between;   
+    background: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%); 
+    border: 3px solid green; border-radius: 10px 10px;
+    margin: 2% 10% 2% 10%; padding: 5px 5px 5px 5px;
+}
+h2
+{
+    background-color: aqua;
+    width: auto; height: auto; margin: 10px 0 10px 0; padding: 5px;
+    border: 3px solid rgb(0, 128, 0); border-radius: 10px 10px;
+}
+.jumbo1
+{   
+    background-color: aqua;
+    width: auto; height: auto; margin: 10px 0 10px 0; padding: 5px;
+    border: 3px solid rgb(0, 128, 0); border-radius: 10px 10px;
+}
+.jumbo2
+{
+    background-color: aqua;
+    width: auto; height: auto; margin: 10px 0 10px 0; padding: 5px;
+    border: 3px solid rgb(0, 128, 0); border-radius: 10px 10px;
+    background-position: top;   
+}
+button
+{
+    width: auto; height: auto; margin: 10px 0 10px 0; padding: 5px;
+    background-color: aqua; 
+    border: 3px solid rgb(0, 128, 0); border-radius: 10px 10px;
+    text-align: center;
+}
+.jumbo4
+{
+    background-color: aqua; 
+    width: 180px; height: auto; margin: 10px 0 10px 0; padding: 5px;
+    border: 3px solid rgb(0, 128, 0); border-radius: 10px 10px;
+    text-align: center;    
+}
+.element1
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+img:hover+h1
+{
+    color: rgb(201, 13, 13);
+}
+p
+{   
+    width: auto; height: auto;
+    justify-content: center;
+    display: flex;
+    border: 3px black solid; border-radius: 10px 10px; padding: 3px;
+    font-size: 2em;
+    background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+
+a:hover
+{
+    color: green;
+    text-decoration:#0fd850 underline double;
+}
+a:active
+{
+    text-decoration-color: #fa71cd;
+}
+a:focus
+{
+    background-color: #f9f047;
+    color: black;
+    outline-color: #6b10a0;
+}
+.baniere
+{   
+    background: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    display: flex;
+    background-position: top;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 3px solid green; border-radius: 10px 10px;
+    background-size: 100%;
+    margin: 2% 10% 2% 10%; padding: 5px 5px 5px 5px;
+}
+
+.table
+{   
+    background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    width: auto;    height: auto;
+    margin:2% auto; padding: 2px;
+    border-collapse: separate;
+    line-height: 20px;   
+}
+th
+{   
+    border: 2px solid black; 
+    min-block-size: 1em; color: rgb(56, 16, 201);   
+}
+td
+{   
+    border: 2px solid black; 
+    font-style: italic; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em; color: green;   
+}
+.fire
+{
+    background: linear-gradient(to left, rgb(255, 255, 0), rgb(8, 8, 226));
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    margin: 2% 10% 2% 10%; padding: 10px 10px 10px 10px;
+    border: 3px solid black; border-radius: 10px 10px;
+    display: flex;
+}
+
+.texte
+{
+    margin: 10px 10px 10px 10px; padding: 10px 10px 10px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    font-size: 1.2em; font-style: italic;
+    border: 3px solid blue; border-radius: 10px 10px;
+    width: auto; height: auto;    
+}
